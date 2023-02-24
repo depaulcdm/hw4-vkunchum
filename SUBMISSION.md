@@ -21,6 +21,9 @@ The first argument is the Alt-text for the image. The second argument is the pat
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Ant+Ivy build.
 - ![Screen Capture #1](Images/4.PNG)
 - [10 pts] Links to the complete and correct [hello-world/build.xml](hello-world/build.xml) and [hello-world/ivy.xml](hello-world/ivy.xml) files.
+- https://github.com/depaulcdm/hw4-vkunchum/blob/master/hello-world/build.xml
+- https://github.com/depaulcdm/hw4-vkunchum/blob/master/hello-world/ivy.xml
+- 
 
 # Maven [30 pts]
 - [5 pts] A screen capture showing the version of Maven that you installed and its install directory.
@@ -30,6 +33,7 @@ The first argument is the Alt-text for the image. The second argument is the pat
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Maven build.
 - ![Screen Capture #1](Images/Maven_3.PNG)
 - [10 pts] Links to the complete and correct [hello-world/pom.xml](hello-world/pom.xml) file.
+- https://github.com/depaulcdm/hw4-vkunchum/blob/master/hello-world/pom.xml
 
 # Gradle [30 pts]
 - [5 pts]A screen capture showing the version of Gradle that you installed and its install directory.
@@ -39,3 +43,4 @@ The first argument is the Alt-text for the image. The second argument is the pat
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Gradle build.
 - ![Screen Capture #1](Images/Gradle_3.PNG)
 - [10 pts] Links to the complete and correct [hello-world/build.gradle](hello-world/build.gradle) file.
+- https://github.com/depaulcdm/hw4-vkunchum/blob/master/hello-world/build.gradle
