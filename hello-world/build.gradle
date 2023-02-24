@@ -1,0 +1,41 @@
+group 'edu.depaul.cdm.se441'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+/*
+TODO: Define the dependencies for both the compile and test
+scopes. We need the following dependencies:
+	
+log4j v.1.2.17 (for everything)
+junit v.4.12   (for testing only)
+
+Also make sure to configure the 'jar' task so that it looks
+similar to the one shown in class.
+
+Remember to use the 'java' plugin. You can reference the
+Maven Central repository.
+*/
+repositories {
+    mavenCentral()
+}
+dependencies {
+    // Log4j
+    implementation 'log4j:log4j:1.2.17'
+    
+    // JUnit
+    testImplementation 'junit:junit:4.12'
+}
+
+jar {
+
+    baseName = 'hello-world'+'-all'
+
+    manifest {
+
+        attributes 'Main-Class':'hello.HelloWorld'
+    }
+    from{
+
+        configurations.runtimeClasspath.findAll { it.name.endsWith('jar')}.collect {zipTree(it)}
+    }
+}
